@@ -1,0 +1,76 @@
+body {
+    font-family: 'Roboto';
+    background-color: white;
+    color: black;
+    /* size: 7in 9.25in;
+    margin: 27mm 16mm 27mm 16mm;
+    border: 2px solid black; */
+}
+
+img {
+    display: block;
+    max-width:170px;
+    /* max-height:95px; */
+    width: auto;
+    height: auto;  
+    object-fit: cover;
+}
+
+.text-orange {
+    color: orange;
+}
+
+.font-16 {
+    font-size: 16px;
+}
+
+article {
+    padding: 20px;
+}
+
+header {
+    display: inline-flex;
+    width: 100vw;
+    border-bottom: 3px solid orange; 
+}
+
+.orange-underline {
+    border-bottom: 3px solid orange;
+}
+
+p {
+    line-height: 2;
+}
+
+li {
+    line-height: 2;
+}
+
+.bold {
+    text-decoration: underline;
+}
+
+.orange-square {
+    height: 20px;
+    width: 20px;
+    background-color: orange;
+    display: inline-block;
+}
+
+.grey-square {
+    height: 20px;
+    width: 20px;
+    background-color: grey;
+    display: inline-block;
+}
+
+.italic-text {
+    font: italic small-caps 12px/30px Georgia;
+    font-size: 14px;
+}
+
+.round-grey-text {
+    border-radius: 15px;
+    background: orange;
+    padding: 5px;
+}
